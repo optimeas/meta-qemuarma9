@@ -8,5 +8,3 @@ PREFERRED_PROVIDER_virtual/libgl ?= "mesa"
 MACHINE_FEATURES = "alsa pcmcia bluetooth irda usbgadget screen"
 
 IMAGE_FSTYPES += "tar.bz2"
-
-ROOT_FLASH_SIZE = "280"
