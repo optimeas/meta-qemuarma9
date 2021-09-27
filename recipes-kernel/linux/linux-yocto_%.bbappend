@@ -1,4 +1,4 @@
 # WR qemuarma9 configuration, not supported in Yocto
-KBRANCH_qemuarma9 ?= "v5.10/standard/arm-versatile-926ejs"
-KERNEL_DEVICETREE_qemuarma9 = "vexpress-v2p-ca9.dtb"
-COMPATIBLE_MACHINE_qemuarma9 = "qemuarma9"
+KBRANCH:qemuarma9 ?= "v5.14/standard/arm-versatile-926ejs"
+KERNEL_DEVICETREE:qemuarma9 = "vexpress-v2p-ca9.dtb"
+COMPATIBLE_MACHINE:qemuarma9 = "qemuarma9"
